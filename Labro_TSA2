@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>School Suspension Notice</title>
+    <title>Labro_TSA2</title>
     </head>
-    <body background="./FEUTechBackground.png" marginwidth="200px">
+    <body background="./GREENBACKGROUNDTECH.png" marginwidth="200px">
         <img
-        src="https://upload.wikipedia.org/wikipedia/en/6/62/FEU_Tech_Official_seal.png"
+        src="FEUTech_Logo.png"
+        alt=""
+        height="120px"
     <font face="Arial:"
     ><center>
-        <font color="green" size="7"><ch1>ADVISORY</h1></font>
+        <font color="yellow" size="7"><ch1>ADVISORY</h1></font>
         <font size="5">
             <h2>Online Synchronous Classes on April 29 to April 30, 2024</h2></font>
         <font size="4">
             <p>
                 Due to the Heat Index rising in Metro Manila, FEU Institute of Technology will conduct synchronous online learning on 
-        <font color="green"><strong> April 29 to April 30, 2024</strong></font>
+        <font color="yellow"><strong> April 29 to April 30, 2024</strong></font>
         . students are advised to check their Canvas Account for Activities, assigments or consult with faculty for any further instructions.
         </p>
         <p>
             All offices will be open onsite as well as online consultation to assist students with the enrollment, payment requirements as well as 
             COR revisions. Other instructions will follow the regular working operations schedule.
         </p>
-        <font color="green" size="5">
-            <p><b>Keep safe, iTamaraws.</b></p>
+        <font color="yellow" size="5">
+            <p><b>Stay inside and stay hydrated, iTamaraws.</b></p>
             </font>
         </font>
         <p align="right"><i>Technology driven by education.</i></p>
