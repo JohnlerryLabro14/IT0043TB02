@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon National Dex</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pokemon National Dex</h1>
+    <form>
+        <label for="birthdate">Enter Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate">
+        <input type="submit" value="Submit">
+    </form>
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Image</th>
+            <th>Generation</th>
+            <th>Previous Evolution</th>
+            <th>Current Evolution</th>
+            <th>Next Evolution</th>
+            <th>Nickname</th>
+        </tr>
+        <!-- Sample Row -->
+        <tr>
+            <td>001</td>
+            <td>Bulbasaur</td>
+            <td>Grass/Poison</td>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur"></td>
+            <td>1</td>
+            <td>N/A</td>
+            <td>Ivysaur</td>
+            <td>Venusaur</td>
+            <td>Leafy</td>
+        </tr>
+        <!-- Add more rows for other Pokemon -->
+    </table>
+</body>
+</html>
