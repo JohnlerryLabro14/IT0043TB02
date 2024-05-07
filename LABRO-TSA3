@@ -1,5 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <center>
+        <title>Pokemon National Dex</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+
+            th {
+                background-color: #f2f2f2;
+            }
+        </style>
+</head>
+
+<body>
+    <h1>Pokemon National Dex</h1>
+    <form id="pokemonForm">
+        <label for="nationalDex">National Dex #:</label>
+        <input type="number" id="nationalDex" name="nationalDex" required><br><br>
+
+        <label for="generation">Generation:</label>
+        <select id="generation" name="generation">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select><br><br>
+
+        <label for="type">Type(s):</label>
+        <input type="text" id="type" name="type" placeholder="Enter types separated by '/'" required><br><br>
+
+        <label for="evolution">Evolves to:</label>
+        <input type="text" id="evolution" name="evolution" required><br><br>
+
+        <label for="nickname">Nickname:</label>
+        <input type="text" id="nickname" name="nickname"><br><br>
+
+        <input type="submit" value="Add Pokemon">
+    </form>
+    <br>
+    <table id="pokemonTable">
+        <tr>
+
+            <th>#</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Image</th>
+            <th>Generation</th>
+            <th>Previous Evolution</th>
+            <th>Current Evolution</th>
+            <th>Next Evolution</th>
+            <th>Nickname</th>
+        </tr>
+        <tr style="text-align: center;">
+            <td>0014</td>
+            <td>lerrysaurus</td>
+            <td bgcolor="black" colspan="1">
+                <font color="white">Ikaw</font>
+            <td><img src="JOHNNYSAURUS.png" height="360px'alt=" Lerrysaurus"></td>
+
+            </td>
+            <td>1</td>
+            <td>Janjansaur</td>
+            <td>Lerrysaur</td>
+            <td>Johnlerrysaur</td>
+            <td>Napudpud na Pencil</td>
+        </tr>
+        <tr>
+            <td>001</td>
+            <td>Bulbasaur</td>
+            <td bgcolor="lightgreen" colspan="1">
+                <font color="white">GrassPoison</font>
+
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+                    alt="Bulbasaur"></td>
+            <td>1</td>
+            <td>Bulbasaur</td>
+            <td>Ivysaur</td>
+            <td>Venusaur</td>
+            <td>Leafy</td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>Charmander</td>
+            <td bgcolor="orange" colspan="1">
+                <font color="white">Fire</font>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
+                    alt="Charmander"></td>
+            <td>1</td>
+            <td>Charmander</td>
+            <td>Charmeleon</td>
+            <td>Charizard</td>
+            <td>Fire Tuko</td>
+        </tr>
+        <tr>
+            <td>007</td>
+            <td>Squirtle</td>
+            <td bgcolor="lightblue" colspan="1">
+                <font color="white">water</font>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
+                    alt="Squirtle"></td>
+            <td>1</td>
+            <td>Squirtle</td>
+            <td>Wartortle</td>
+            <td>Blastoise</td>
+            <td>Tortol</td>
+        </tr>
+        <tr>
+            <td>025</td>
+            <td>Pikachu</td>
+            <td bgcolor="yellow" colspan="1">
+                <font color="black">Lightning</font>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+                    alt="Pikachu"></td>
+            <td>1</td>
+            <td>Pichu</td>
+            <td>Pikachu</td>
+            <td>Raichu</td>
+            <td>BoomBoom</td>
+        </tr>
+        <tr>
+            <td>039</td>
+            <td>Jigglypuff</td>
+            <td bgcolor="pink" colspan="1">
+                <font color="black">Normal/Fairy</font>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png"
+                    alt="Jigglypuff"></td>
+            <td>1</td>
+            <td>Igglybuff</td>
+            <td>Jigglypuff</td>
+            <td>Wigglytuff</td>
+            <td>Pink Fluff</td>
+        </tr>
+        <tr>
+            <td>129</td>
+            <td>Magikarp</td>
+            <td bgcolor="lightblue" colspan="1">
+                <font color="black">Water</font>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/129.png"
+                    alt="Magikarp"></td>
+            <td>1</td>
+            <td>N/A</td>
+            <td>Gyarados</td>
+            <td>None</td>
+            <td>Koi Fish</td>
+        </tr>
+        <tr>
+            <td>151</td>
+            <td>Caterpie</td>
+            <td bgcolor="lightgreen" colspan="1">
+                <font color="black">Grass/Insect</font>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/11.png" alt="Metapod">
+            <td>1</td>
+            <td>Caterpie</td>
+            <td>Metapod</td>
+            <td>Butterfree</td>
+            <td>Gummy Worm</td>
+        </tr>
+        <tr>
+            <td>150</td>
+            <td>Mewtwo</td>
+            <td bgcolor="purple" colspan="1">
+                <font color="black">Pyschic</font>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/150.png"
+                    alt="Mewtwo"></td>
+            <td>1</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>Purple Cat</td>
+        </tr>
+        <tr>
+            <td>151</td>
+            <td>Mew</td>
+            <td bgcolor="pink" colspan="1">
+                <font color="black">Pyschic</font>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/151.png"
+                    alt="Mew"></td>
+            <td>1</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>Smol Cat</td>
+            </center>
+        </tr>
+    </table>
+
+    <script>
+        document.getElementById("pokemonForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            var form = event.target;
+            var table = document.getElementById("pokemonTable");
+            var newRow = table.insertRow(-1);
+            var nationalDex = newRow.insertCell(0);
+            var name = newRow.insertCell(1);
+            var type = newRow.insertCell(2);
+            var image = newRow.insertCell(3);
+            var generation = newRow.insertCell(4);
+            var prevEvo = newRow.insertCell(5);
+            var currEvo = newRow.insertCell(6);
+            var nextEvo = newRow.insertCell(7);
+            var nickname = newRow.insertCell(8);
+
+            nationalDex.innerHTML = form.elements["nationalDex"].value;
+            name.innerHTML = "Pokemon";
+            type.innerHTML = form.elements["type"].value;
+            image.innerHTML = '<img src="https://via.placeholder.com/150" alt="Pokemon">';
+            generation.innerHTML = form.elements["generation"].value;
+            prevEvo.innerHTML = "Prev Evolution";
+            currEvo.innerHTML = form.elements["evolution"].value;
+            nextEvo.innerHTML = "Next Evolution";
+            nickname.innerHTML = form.elements["nickname"].value || "N/A";
+        });
+
+    </script>
+</body>
+
+</html>
+J
+JELabro
+3TSY2324_IT0043L_TB02-29
+May 6, 2024 at 12:10pm
+
+
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +250,50 @@
             border-collapse: collapse;
             width: 100%;
         }
-        th, td {
+
+        th,
+        td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: center;
         }
+
         th {
             background-color: #f2f2f2;
         }
     </style>
 </head>
+
 <body>
     <h1>Pokemon National Dex</h1>
-    <form>
-        <label for="birthdate">Enter Birthdate:</label>
-        <input type="date" id="birthdate" name="birthdate">
-        <input type="submit" value="Submit">
+    <form id="pokemonForm">
+        <label for="nationalDex">National Dex #:</label>
+        <input type="number" id="nationalDex" name="nationalDex" required><br><br>
+
+        <label for="generation">Generation:</label>
+        <select id="generation" name="generation">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select><br><br>
+
+        <label for="type">Type(s):</label>
+        <input type="text" id="type" name="type" placeholder="Enter types separated by '/'" required><br><br>
+
+        <label for="evolution">Evolves to:</label>
+        <input type="text" id="evolution" name="evolution" required><br><br>
+
+        <label for="nickname">Nickname:</label>
+        <input type="text" id="nickname" name="nickname"><br><br>
+
+        <input type="submit" value="Add Pokemon">
     </form>
-    <table>
+    <br>
+    <table id="pokemonTable">
         <tr>
             <th>#</th>
             <th>Name</th>
@@ -38,19 +305,17 @@
             <th>Next Evolution</th>
             <th>Nickname</th>
         </tr>
-        <!-- Sample Row -->
         <tr>
             <td>001</td>
             <td>Bulbasaur</td>
             <td>Grass/Poison</td>
-            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur"></td>
+            <td><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+                    alt="Bulbasaur"></td>
             <td>1</td>
             <td>N/A</td>
             <td>Ivysaur</td>
             <td>Venusaur</td>
             <td>Leafy</td>
         </tr>
-        <!-- Add more rows for other Pokemon -->
-    </table>
 </body>
 </html>
