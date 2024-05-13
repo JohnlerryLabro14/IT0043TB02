@@ -1,0 +1,42 @@
+body {
+    font-family: 'Times New ROman';
+}
+
+.container {
+    background-image: url('bgko.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.advisory {
+    font-style: 'Arial Black';
+    text-align: center;
+    color: green;
+    font-size: 7em;
+}
+
+.announcement {
+    text-align: center;
+    font-size: 2em;
+}
+
+.message {
+    text-align: center;
+    color: black;
+    font-weight: 100
+}
+
+.note {
+    text-align: center;
+    font-size: 1.5em;
+    color: green;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer i {
+    font-style: italic;
+}
