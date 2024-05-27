@@ -6,7 +6,7 @@
 
 body {
     justify-content: center;
-    background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-blue-background_23-2149762303.jpg);
+    background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149751055.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -128,7 +128,7 @@ p {
     .pokemon-grid:hover {
 
         background-position: center;
-        background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-blue-background_23-2149762303.jpg);
+        background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149751055.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -173,7 +173,7 @@ p {
 
     .pokemon-grid:hover {
         background-position: center;
-        background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-blue-background_23-2149762303.jpg);
+        background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149751055.jpg);
         transition-duration: 0.7s;
     }
 
