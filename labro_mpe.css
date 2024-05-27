@@ -106,12 +106,8 @@ p {
     align-self: center;
     font-weight: bold;
     font-style: Arial;
-    color: black;
+    color: white;
     display: none;
-    text-shadow: -1px -1px 0 white,
-        1px -1px 0 white,
-        -1px 1px 0 white,
-        1px 1px 0 white;
     flex-grow: 0.5s;
 }
 
