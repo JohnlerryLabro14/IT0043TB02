@@ -18,33 +18,26 @@ header {
 .logo {
     font-size: 24px;
 }
-
 nav a {
     color: white;
     text-decoration: none;
     margin-right: 20px;
 }
-
-
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
-
 .content {
     flex: 1;
     padding: 20px;
 }
-
 .hero-image {
     max-width: 100%;
     height: auto;
     margin: 20px;
 }
-
-
 footer {
     background-color:  #4e1b91;
     color: white;
