@@ -1,6 +1,5 @@
 /* Labro_FinalProject.css */
 
-/* Reset and basic styling */
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +17,7 @@ body {
 header {
     background-color: #16256b;
     color: #fff;
-    padding: 20px 0; /* Increased padding for a larger header */
+    padding: 20px 0; 
     position: fixed;
     width: 100%;
     top: 0;
@@ -37,7 +36,7 @@ header.hide-header {
 header h1 {
     text-align: center;
     margin: 0;
-    font-size: 2rem; /* Increased font size for the header */
+    font-size: 2rem; 
 }
 
 nav ul {
@@ -222,7 +221,7 @@ nav ul li a:hover {
 }
 
 .socmed-link img {
-    max-width: 50px; /* Adjust image size as needed */
+    max-width: 50px; 
     height: auto;
     margin-bottom: 10px;
     border-radius: 10px;
