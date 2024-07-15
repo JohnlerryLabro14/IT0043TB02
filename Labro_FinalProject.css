@@ -196,18 +196,48 @@ nav ul li a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.socmed-link-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b0c6f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 60px auto 20px auto; 
+    max-width: 400px;
     gap: 20px;
+}
+
+.contact-info-container h2 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.contact-info-container p {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.socmed-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto 60px auto; 
+}
+
+.socmed-link-grid {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 1000px;
-    margin: 0 auto;
+    gap: 20px;
 }
 
 .socmed-link {
-    border: 1px solid #525b70;
+    width: 150px; 
     padding: 20px;
     box-sizing: border-box;
     transition: transform 0.3s ease, box-shadow 0.5s ease;
@@ -217,12 +247,12 @@ nav ul li a:hover {
     text-align: center;
     background-color: #b0c6f7;
     border-radius: 10px;
-    margin: 10px;
+    gap: 10px;
 }
 
 .socmed-link img {
-    max-width: 50px; 
-    height: auto;
+    width: 50px; 
+    height: 50px; 
     margin-bottom: 10px;
     border-radius: 10px;
 }
@@ -262,5 +292,17 @@ nav ul li a:hover {
 
     .description-container {
         font-size: 1rem;
+    }
+
+    .contact-info-container {
+        padding: 10px;
+    }
+
+    .contact-info-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-info-container p {
+        font-size: 1.2rem;
     }
 }
